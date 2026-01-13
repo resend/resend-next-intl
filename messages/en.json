@@ -1,0 +1,15 @@
+{
+  "home": {
+    "submit": "Send in English",
+    "switch-to-pt": "Switch to Portuguese",
+    "switch-to-en": "Switch to English",
+    "switch-to-es": "Switch to Spanish"
+  },
+  "welcome-email": {
+    "header": "Welcome to Acme",
+    "hi": "Hi",
+    "thanks": "Thanks for signing up! We're excited to have you on board.",
+    "get-started": "Get Started",
+    "questions": "If you have any questions, reply to this email. We're here to help!"
+  }
+}

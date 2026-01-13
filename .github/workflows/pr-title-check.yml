@@ -1,0 +1,15 @@
+name: PR Title Check
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+jobs:
+  pr-title-check:
+    runs-on: buildjet-4vcpu-ubuntu-2204
+    container:
+      image: node:24
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Run PR title check
+        run: |
+          node .github/scripts/pr-title-check.js

@@ -1,0 +1,15 @@
+{
+  "home": {
+    "submit": "Enviar en Español",
+    "switch-to-pt": "Cambiar a Portugués",
+    "switch-to-en": "Cambiar a Inglés",
+    "switch-to-es": "Cambiar a Español"
+  },
+  "welcome-email": {
+    "header": "Bienvenido a Acme",
+    "hi": "Hola",
+    "thanks": "Gracias por registrarte! Estamos emocionados de tenerte en la plataforma.",
+    "get-started": "Comenzar",
+    "questions": "Si tienes alguna pregunta, responde a este correo electrónico. Estamos aquí para ayudarte!"
+  }
+}
