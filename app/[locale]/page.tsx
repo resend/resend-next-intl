@@ -1,14 +1,15 @@
 import { notFound } from 'next/navigation';
 import { sendEmail } from '@/actions/send-email';
 import { getTranslations } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 export default async function Home({
   params,
 }: {
-  params: Promise<{ locale: 'pt' | 'en' | 'es' }>;
+  params: Promise<{ locale: 'en' | 'es' | 'pt' }>;
 }) {
   const { locale } = await params;
-  if (!['pt', 'en', 'es'].includes(locale)) {
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
