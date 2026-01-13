@@ -1,8 +1,8 @@
 'use server';
 
+import { getTranslations } from 'next-intl/server';
 import { Resend } from 'resend';
 import WelcomeEmail from '@/emails/welcome';
-import { getTranslations } from 'next-intl/server';
 
 export async function sendEmail(locale: 'pt' | 'en' | 'es') {
   const resend = new Resend(process.env.RESEND_API_KEY);

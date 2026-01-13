@@ -18,7 +18,10 @@ interface WelcomeEmailProps {
   name: string;
 }
 
-export default async function WelcomeEmail({ locale, name }: WelcomeEmailProps) {
+export default async function WelcomeEmail({
+  locale,
+  name,
+}: WelcomeEmailProps) {
   const t = createTranslator({
     messages: await import(`../messages/${locale}.json`),
     namespace: 'welcome-email',
