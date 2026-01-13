@@ -1,5 +1,5 @@
 {
-  "name": "resend-react-intl-example",
+  "name": "resend-next-intl",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
