@@ -1,6 +1,6 @@
-# Resend and React Email with React Intl
+# Resend and React Email with next-intl 
 
-This example shows how to use [Resend](https://resend.com) and [React Email](https://react.email) with [React Intl](https://formatjs.github.io/docs/react-intl).
+This example shows how to use [Resend](https://resend.com) and [React Email](https://react.email) with [next-intl](https://next-intl.dev/).
 
 ## Prerequisites
 
