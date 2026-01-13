@@ -13,12 +13,12 @@ import {
 } from '@react-email/components';
 import { createTranslator } from 'next-intl';
 
-interface WelcomeProps {
-  locale: 'pt' | 'es' | 'en';
+interface WelcomeEmailProps {
+  locale: 'en' | 'es' | 'pt';
   name: string;
 }
 
-export default async function WelcomeEmail({ locale, name }: WelcomeProps) {
+export default async function WelcomeEmail({ locale, name }: WelcomeEmailProps) {
   const t = createTranslator({
     messages: await import(`../messages/${locale}.json`),
     namespace: 'welcome-email',
@@ -61,6 +61,6 @@ export default async function WelcomeEmail({ locale, name }: WelcomeProps) {
 }
 
 WelcomeEmail.PreviewProps = {
-  locale: 'pt',
+  locale: 'en',
   name: 'John Lennon',
 };
