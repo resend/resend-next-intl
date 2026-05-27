@@ -20,13 +20,13 @@ cp .env.example .env
 2. Install dependencies
 
   ```sh
-npm install
+pnpm install
   ```
 
 3. Run Next.js app locally:
 
   ```sh
-npm run dev
+pnpm dev
   ```
 
 4. Open http://localhost:3000 in the browser
